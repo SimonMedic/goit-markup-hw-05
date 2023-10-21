@@ -522,3 +522,8 @@ img {
     .container-logo-footer {
         margin-right: 120px;
     }
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
