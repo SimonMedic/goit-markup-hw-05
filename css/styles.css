@@ -391,15 +391,17 @@ border-radius: 2px;
 .link-portfolio {
     box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-portfolio:hover {
+.link-portfolio:hover .paragraph-main-portfolio {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
-.link-portfolio:focus {
+.link-portfolio:focus .paragraph-main-portfolio {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .title-portfolio {
     justify-content: center;
@@ -414,12 +416,7 @@ border-radius: 2px;
     position: relative;
     overflow: hidden;
 }
-.container-main-portfolio:hover {
-    transform: translateY(0%);
-}
-.container-main-portfolio:focus {
-    transform: translateY(0%);
-}
+
 .paragraph-main-portfolio {
     position: absolute;
     top: 0;
