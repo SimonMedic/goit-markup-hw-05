@@ -41,7 +41,6 @@ img {
 
 .link {
     text-decoration: none;
-    color: var(--pressed-state-color);
 }
 .link-footer {
     display: inline-block;
@@ -81,7 +80,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: var(--pressed-state-color);
     padding: 24px 0;
 
 }
