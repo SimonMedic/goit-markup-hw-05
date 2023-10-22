@@ -567,13 +567,13 @@ border-radius: 2px;
     }
 .icon-footer {
         fill: var(--light-color);
-    }
-    .container-socials-footer {
+}
+.container-socials-footer {
         margin-right: 120px;
-    }
-    .container-logo-footer {
+}
+.container-logo-footer {
         margin-right: 120px;
-    }
+}
 .is-hidden {
     opacity: 0;
     visibility: hidden;
