@@ -80,9 +80,17 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--pressed-state-color);
+    color: var(--dark-color);
     padding: 24px 0;
-
+}
+.underline::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: var(--pressed-state-color);
+border-radius: 2px;
 }
 
 .nav-link:hover {
