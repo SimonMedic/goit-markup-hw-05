@@ -164,6 +164,7 @@ border-radius: 2px;
     padding: 0px;
 }
 .paragraph {
+    transform: translateY(0%);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -386,6 +387,9 @@ border-radius: 2px;
     display: flex;
     flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
+}
+.link-portfolio {
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-portfolio:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
