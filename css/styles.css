@@ -41,6 +41,7 @@ img {
 
 .link {
     text-decoration: none;
+    color: var(--pressed-state-color);
 }
 .link-footer {
     display: inline-block;
