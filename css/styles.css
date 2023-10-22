@@ -349,7 +349,7 @@ border-radius: 2px;
 }
 .section-solution {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -389,6 +389,7 @@ border-radius: 2px;
     width: calc((100% - 48px) / 3);
 }
 .link-portfolio {
+    display: block;
     box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-portfolio:hover .paragraph-main-portfolio {
